@@ -9,5 +9,6 @@ public class FilesTest {
         QuizFileRepository quizFileRepository = new QuizFileRepository("test.txt");
         List<QuizQuestion> questions = quizFileRepository.readAll();
         questions.forEach(e -> System.out.println(e));
+        System.out.println("test");
     }
 }
