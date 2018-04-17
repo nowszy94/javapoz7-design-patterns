@@ -12,6 +12,7 @@ public class EmergencyCenter {
         this.chainItems.add(new PoliceChainItem());
         this.chainItems.add(new FirefitghersChainItem());
         this.chainItems.add(new AmbulanceChainItem());
+        this.chainItems.add(new ArmyChainItem());
 //        this.chainItems.add(new DefaultChainItem());
     }
 
