@@ -1,5 +1,7 @@
 package com.sda.builder;
 
+import java.util.Objects;
+
 public class User {
     private String firstName;
     private String lastName;
@@ -76,5 +78,32 @@ public class User {
 
     public void setPhoneNumber(String phoneNumber) {
         this.phoneNumber = phoneNumber;
+    }
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", birthDate='" + birthDate + '\'' +
+                ", phoneNumber='" + phoneNumber + '\'' +
+                '}';
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        User user = (User) o;
+        return Objects.equals(firstName, user.firstName) &&
+                Objects.equals(lastName, user.lastName) &&
+                Objects.equals(birthDate, user.birthDate) &&
+                Objects.equals(phoneNumber, user.phoneNumber);
+    }
+
+    @Override
+    public int hashCode() {
+
+        return Objects.hash(firstName, lastName, birthDate, phoneNumber);
     }
 }

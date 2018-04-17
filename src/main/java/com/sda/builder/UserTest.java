@@ -20,5 +20,11 @@ public class UserTest {
                 User.builder()
         .firstName("afsdfasdf").build());
 
+        UserWithLombok userWithLombok = new UserWithLombok.UserWithLombokBuilder()
+                .firstName("Szymon")
+                .lastName("Nowak")
+                .phoneNumber("123456789")
+                .birthDate("q42314234")
+                .build();
     }
 }
