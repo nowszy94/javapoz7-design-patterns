@@ -3,7 +3,7 @@ package com.sda.chain;
 public class AmbulanceChainItem implements ChainItem {
     @Override
     public boolean isMyResponsibility(String value) {
-        return "sick".equals(value);
+        return value.contains("sick");
     }
 
     @Override

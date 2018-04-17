@@ -3,7 +3,7 @@ package com.sda.chain;
 public class PoliceChainItem implements ChainItem {
     @Override
     public boolean isMyResponsibility(String value) {
-        return "crime".equals(value);
+        return value.contains("crime");
     }
 
     @Override
