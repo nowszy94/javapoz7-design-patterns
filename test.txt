@@ -1,0 +1,12 @@
+Ile lat ma prezydent
+12
+45
+78
+56
+b
+Ile to jest 2 + 2
+1
+2
+3
+4
+d
