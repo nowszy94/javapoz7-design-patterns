@@ -1,4 +1,4 @@
-firstName,lastName,phoneNumber
-Szymon,Nowak,123456789
-Jan,Kowalski,675843920
-Anna,Wisniewska,85767483
+firstName,lastName,phoneNumber,city,street,flatNumber
+Szymon,Nowak,123456789,Poznan,sw Marcina,3
+Jan,Kowalski,675843920,Poznan,abc,6
+Anna,Wisniewska,85767483,Warszawa,Niepodleglosci 17,3
