@@ -9,6 +9,7 @@ public class MyQueuePrototype {
         put(MyQueuePrototypeKeys.SZYMON, new MyQueuePrototype());
         put(MyQueuePrototypeKeys.JAN, new MyQueuePrototype());
         put(MyQueuePrototypeKeys.ANNA, new MyQueuePrototype());
+        put(MyQueuePrototypeKeys.ASD, new MyQueuePrototype());
     }};
 
     public static MyQueuePrototype instanceOf(MyQueuePrototypeKeys key) {
