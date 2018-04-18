@@ -1,0 +1,4 @@
+firstName,lastName,phoneNumber
+Szymon,Nowak,123456789
+Jan,Kowalski,675843920
+Anna,Wisniewska,85767483
